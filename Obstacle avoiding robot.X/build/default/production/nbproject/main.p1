@@ -1,0 +1,905 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"7045 H:\Install Program\XC8\pic\include\pic16f1459.h
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 7045: extern volatile __bit RC3 __attribute__((address(0x73)));
+[v _RC3 `Vb ~T0 @X0 0 e@115 ]
+"7048
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 7048: extern volatile __bit RC4 __attribute__((address(0x74)));
+[v _RC4 `Vb ~T0 @X0 0 e@116 ]
+"7051
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 7051: extern volatile __bit RC5 __attribute__((address(0x75)));
+[v _RC5 `Vb ~T0 @X0 0 e@117 ]
+"7054
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 7054: extern volatile __bit RC6 __attribute__((address(0x76)));
+[v _RC6 `Vb ~T0 @X0 0 e@118 ]
+[v F2289 `(v ~T0 @X0 1 tf1`ul ]
+"92 H:\Install Program\XC8\pic\include\pic.h
+[v __delay `JF2289 ~T0 @X0 0 e ]
+[p i __delay ]
+"7042 H:\Install Program\XC8\pic\include\pic16f1459.h
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 7042: extern volatile __bit RC2 __attribute__((address(0x72)));
+[v _RC2 `Vb ~T0 @X0 0 e@114 ]
+"731
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 731: extern volatile unsigned char TMR1H __attribute__((address(0x017)));
+[v _TMR1H `Vuc ~T0 @X0 0 e@23 ]
+"711
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 711: extern volatile unsigned char TMR1L __attribute__((address(0x016)));
+[v _TMR1L `Vuc ~T0 @X0 0 e@22 ]
+"7039
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 7039: extern volatile __bit RC1 __attribute__((address(0x71)));
+[v _RC1 `Vb ~T0 @X0 0 e@113 ]
+"7036
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 7036: extern volatile __bit RC0 __attribute__((address(0x70)));
+[v _RC0 `Vb ~T0 @X0 0 e@112 ]
+"7294
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 7294: extern volatile __bit TMR1ON __attribute__((address(0xC0)));
+[v _TMR1ON `Vb ~T0 @X0 0 e@192 ]
+[p mainexit ]
+"1070
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1070: extern volatile unsigned char TRISC __attribute__((address(0x08E)));
+[v _TRISC `Vuc ~T0 @X0 0 e@142 ]
+"751
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 751: extern volatile unsigned char T1CON __attribute__((address(0x018)));
+[v _T1CON `Vuc ~T0 @X0 0 e@24 ]
+"54 H:\Install Program\XC8\pic\include\pic16f1459.h
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 54: __asm("INDF0 equ 00h");
+[; <" INDF0 equ 00h ;# ">
+"74
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 74: __asm("INDF1 equ 01h");
+[; <" INDF1 equ 01h ;# ">
+"94
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 94: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"114
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 114: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"177
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 177: __asm("FSR0L equ 04h");
+[; <" FSR0L equ 04h ;# ">
+"197
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 197: __asm("FSR0H equ 05h");
+[; <" FSR0H equ 05h ;# ">
+"221
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 221: __asm("FSR1L equ 06h");
+[; <" FSR1L equ 06h ;# ">
+"241
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 241: __asm("FSR1H equ 07h");
+[; <" FSR1H equ 07h ;# ">
+"261
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 261: __asm("BSR equ 08h");
+[; <" BSR equ 08h ;# ">
+"313
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 313: __asm("WREG equ 09h");
+[; <" WREG equ 09h ;# ">
+"333
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 333: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"353
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 353: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"431
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 431: __asm("PORTA equ 0Ch");
+[; <" PORTA equ 0Ch ;# ">
+"476
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 476: __asm("PORTB equ 0Dh");
+[; <" PORTB equ 0Dh ;# ">
+"515
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 515: __asm("PORTC equ 0Eh");
+[; <" PORTC equ 0Eh ;# ">
+"577
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 577: __asm("PIR1 equ 011h");
+[; <" PIR1 equ 011h ;# ">
+"634
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 634: __asm("PIR2 equ 012h");
+[; <" PIR2 equ 012h ;# ">
+"686
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 686: __asm("TMR0 equ 015h");
+[; <" TMR0 equ 015h ;# ">
+"706
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 706: __asm("TMR1 equ 016h");
+[; <" TMR1 equ 016h ;# ">
+"713
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 713: __asm("TMR1L equ 016h");
+[; <" TMR1L equ 016h ;# ">
+"733
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 733: __asm("TMR1H equ 017h");
+[; <" TMR1H equ 017h ;# ">
+"753
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 753: __asm("T1CON equ 018h");
+[; <" T1CON equ 018h ;# ">
+"825
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 825: __asm("T1GCON equ 019h");
+[; <" T1GCON equ 019h ;# ">
+"895
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 895: __asm("TMR2 equ 01Ah");
+[; <" TMR2 equ 01Ah ;# ">
+"915
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 915: __asm("PR2 equ 01Bh");
+[; <" PR2 equ 01Bh ;# ">
+"935
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 935: __asm("T2CON equ 01Ch");
+[; <" T2CON equ 01Ch ;# ">
+"1006
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1006: __asm("TRISA equ 08Ch");
+[; <" TRISA equ 08Ch ;# ">
+"1033
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1033: __asm("TRISB equ 08Dh");
+[; <" TRISB equ 08Dh ;# ">
+"1072
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1072: __asm("TRISC equ 08Eh");
+[; <" TRISC equ 08Eh ;# ">
+"1134
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1134: __asm("PIE1 equ 091h");
+[; <" PIE1 equ 091h ;# ">
+"1191
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1191: __asm("PIE2 equ 092h");
+[; <" PIE2 equ 092h ;# ">
+"1243
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1243: __asm("OPTION_REG equ 095h");
+[; <" OPTION_REG equ 095h ;# ">
+"1326
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1326: __asm("PCON equ 096h");
+[; <" PCON equ 096h ;# ">
+"1383
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1383: __asm("WDTCON equ 097h");
+[; <" WDTCON equ 097h ;# ">
+"1442
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1442: __asm("OSCTUNE equ 098h");
+[; <" OSCTUNE equ 098h ;# ">
+"1506
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1506: __asm("OSCCON equ 099h");
+[; <" OSCCON equ 099h ;# ">
+"1582
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1582: __asm("OSCSTAT equ 09Ah");
+[; <" OSCSTAT equ 09Ah ;# ">
+"1633
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1633: __asm("ADRES equ 09Bh");
+[; <" ADRES equ 09Bh ;# ">
+"1640
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1640: __asm("ADRESL equ 09Bh");
+[; <" ADRESL equ 09Bh ;# ">
+"1660
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1660: __asm("ADRESH equ 09Ch");
+[; <" ADRESH equ 09Ch ;# ">
+"1680
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1680: __asm("ADCON0 equ 09Dh");
+[; <" ADCON0 equ 09Dh ;# ">
+"1760
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1760: __asm("ADCON1 equ 09Eh");
+[; <" ADCON1 equ 09Eh ;# ">
+"1826
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1826: __asm("ADCON2 equ 09Fh");
+[; <" ADCON2 equ 09Fh ;# ">
+"1868
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1868: __asm("LATA equ 010Ch");
+[; <" LATA equ 010Ch ;# ">
+"1895
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1895: __asm("LATB equ 010Dh");
+[; <" LATB equ 010Dh ;# ">
+"1934
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1934: __asm("LATC equ 010Eh");
+[; <" LATC equ 010Eh ;# ">
+"1996
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 1996: __asm("CM1CON0 equ 0111h");
+[; <" CM1CON0 equ 0111h ;# ">
+"2053
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2053: __asm("CM1CON1 equ 0112h");
+[; <" CM1CON1 equ 0112h ;# ">
+"2125
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2125: __asm("CM2CON0 equ 0113h");
+[; <" CM2CON0 equ 0113h ;# ">
+"2182
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2182: __asm("CM2CON1 equ 0114h");
+[; <" CM2CON1 equ 0114h ;# ">
+"2254
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2254: __asm("CMOUT equ 0115h");
+[; <" CMOUT equ 0115h ;# ">
+"2280
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2280: __asm("BORCON equ 0116h");
+[; <" BORCON equ 0116h ;# ">
+"2313
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2313: __asm("FVRCON equ 0117h");
+[; <" FVRCON equ 0117h ;# ">
+"2379
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2379: __asm("DACCON0 equ 0118h");
+[; <" DACCON0 equ 0118h ;# ">
+"2434
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2434: __asm("DACCON1 equ 0119h");
+[; <" DACCON1 equ 0119h ;# ">
+"2486
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2486: __asm("APFCON equ 011Dh");
+[; <" APFCON equ 011Dh ;# ">
+"2521
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2521: __asm("ANSELA equ 018Ch");
+[; <" ANSELA equ 018Ch ;# ">
+"2550
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2550: __asm("ANSELB equ 018Dh");
+[; <" ANSELB equ 018Dh ;# ">
+"2586
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2586: __asm("ANSELC equ 018Eh");
+[; <" ANSELC equ 018Eh ;# ">
+"2645
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2645: __asm("PMADR equ 0191h");
+[; <" PMADR equ 0191h ;# ">
+"2652
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2652: __asm("PMADRL equ 0191h");
+[; <" PMADRL equ 0191h ;# ">
+"2672
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2672: __asm("PMADRH equ 0192h");
+[; <" PMADRH equ 0192h ;# ">
+"2692
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2692: __asm("PMDAT equ 0193h");
+[; <" PMDAT equ 0193h ;# ">
+"2699
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2699: __asm("PMDATL equ 0193h");
+[; <" PMDATL equ 0193h ;# ">
+"2719
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2719: __asm("PMDATH equ 0194h");
+[; <" PMDATH equ 0194h ;# ">
+"2739
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2739: __asm("PMCON1 equ 0195h");
+[; <" PMCON1 equ 0195h ;# ">
+"2795
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2795: __asm("PMCON2 equ 0196h");
+[; <" PMCON2 equ 0196h ;# ">
+"2815
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2815: __asm("VREGCON equ 0197h");
+[; <" VREGCON equ 0197h ;# ">
+"2849
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2849: __asm("RCREG equ 0199h");
+[; <" RCREG equ 0199h ;# ">
+"2869
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2869: __asm("TXREG equ 019Ah");
+[; <" TXREG equ 019Ah ;# ">
+"2889
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2889: __asm("SPBRG equ 019Bh");
+[; <" SPBRG equ 019Bh ;# ">
+"2896
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2896: __asm("SPBRGL equ 019Bh");
+[; <" SPBRGL equ 019Bh ;# ">
+"2916
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2916: __asm("SPBRGH equ 019Ch");
+[; <" SPBRGH equ 019Ch ;# ">
+"2936
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2936: __asm("RCSTA equ 019Dh");
+[; <" RCSTA equ 019Dh ;# ">
+"2998
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 2998: __asm("TXSTA equ 019Eh");
+[; <" TXSTA equ 019Eh ;# ">
+"3060
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 3060: __asm("BAUDCON equ 019Fh");
+[; <" BAUDCON equ 019Fh ;# ">
+"3112
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 3112: __asm("WPUA equ 020Ch");
+[; <" WPUA equ 020Ch ;# ">
+"3153
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 3153: __asm("WPUB equ 020Dh");
+[; <" WPUB equ 020Dh ;# ">
+"3201
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 3201: __asm("SSP1BUF equ 0211h");
+[; <" SSP1BUF equ 0211h ;# ">
+"3206
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 3206: __asm("SSPBUF equ 0211h");
+[; <" SSPBUF equ 0211h ;# ">
+"3239
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 3239: __asm("SSP1ADD equ 0212h");
+[; <" SSP1ADD equ 0212h ;# ">
+"3244
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 3244: __asm("SSPADD equ 0212h");
+[; <" SSPADD equ 0212h ;# ">
+"3277
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 3277: __asm("SSP1MSK equ 0213h");
+[; <" SSP1MSK equ 0213h ;# ">
+"3282
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 3282: __asm("SSPMSK equ 0213h");
+[; <" SSPMSK equ 0213h ;# ">
+"3315
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 3315: __asm("SSP1STAT equ 0214h");
+[; <" SSP1STAT equ 0214h ;# ">
+"3320
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 3320: __asm("SSPSTAT equ 0214h");
+[; <" SSPSTAT equ 0214h ;# ">
+"3437
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 3437: __asm("SSP1CON1 equ 0215h");
+[; <" SSP1CON1 equ 0215h ;# ">
+"3442
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 3442: __asm("SSPCON equ 0215h");
+[; <" SSPCON equ 0215h ;# ">
+"3446
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 3446: __asm("SSPCON1 equ 0215h");
+[; <" SSPCON1 equ 0215h ;# ">
+"3680
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 3680: __asm("SSP1CON2 equ 0216h");
+[; <" SSP1CON2 equ 0216h ;# ">
+"3685
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 3685: __asm("SSPCON2 equ 0216h");
+[; <" SSPCON2 equ 0216h ;# ">
+"3802
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 3802: __asm("SSP1CON3 equ 0217h");
+[; <" SSP1CON3 equ 0217h ;# ">
+"3807
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 3807: __asm("SSPCON3 equ 0217h");
+[; <" SSPCON3 equ 0217h ;# ">
+"3924
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 3924: __asm("IOCAP equ 0391h");
+[; <" IOCAP equ 0391h ;# ">
+"3977
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 3977: __asm("IOCAN equ 0392h");
+[; <" IOCAN equ 0392h ;# ">
+"4030
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 4030: __asm("IOCAF equ 0393h");
+[; <" IOCAF equ 0393h ;# ">
+"4083
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 4083: __asm("IOCBP equ 0394h");
+[; <" IOCBP equ 0394h ;# ">
+"4131
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 4131: __asm("IOCBN equ 0395h");
+[; <" IOCBN equ 0395h ;# ">
+"4179
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 4179: __asm("IOCBF equ 0396h");
+[; <" IOCBF equ 0396h ;# ">
+"4227
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 4227: __asm("CLKRCON equ 039Ah");
+[; <" CLKRCON equ 039Ah ;# ">
+"4303
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 4303: __asm("ACTCON equ 039Bh");
+[; <" ACTCON equ 039Bh ;# ">
+"4350
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 4350: __asm("PWM1DCL equ 0611h");
+[; <" PWM1DCL equ 0611h ;# ">
+"4386
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 4386: __asm("PWM1DCH equ 0612h");
+[; <" PWM1DCH equ 0612h ;# ">
+"4456
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 4456: __asm("PWM1CON equ 0613h");
+[; <" PWM1CON equ 0613h ;# ">
+"4461
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 4461: __asm("PWM1CON0 equ 0613h");
+[; <" PWM1CON0 equ 0613h ;# ">
+"4532
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 4532: __asm("PWM2DCL equ 0614h");
+[; <" PWM2DCL equ 0614h ;# ">
+"4568
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 4568: __asm("PWM2DCH equ 0615h");
+[; <" PWM2DCH equ 0615h ;# ">
+"4638
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 4638: __asm("PWM2CON equ 0616h");
+[; <" PWM2CON equ 0616h ;# ">
+"4643
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 4643: __asm("PWM2CON0 equ 0616h");
+[; <" PWM2CON0 equ 0616h ;# ">
+"4714
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 4714: __asm("CWG1DBR equ 0691h");
+[; <" CWG1DBR equ 0691h ;# ">
+"4772
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 4772: __asm("CWG1DBF equ 0692h");
+[; <" CWG1DBF equ 0692h ;# ">
+"4830
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 4830: __asm("CWG1CON0 equ 0693h");
+[; <" CWG1CON0 equ 0693h ;# ">
+"4889
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 4889: __asm("CWG1CON1 equ 0694h");
+[; <" CWG1CON1 equ 0694h ;# ">
+"4960
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 4960: __asm("CWG1CON2 equ 0695h");
+[; <" CWG1CON2 equ 0695h ;# ">
+"5006
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5006: __asm("UCON equ 0E8Eh");
+[; <" UCON equ 0E8Eh ;# ">
+"5057
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5057: __asm("USTAT equ 0E8Fh");
+[; <" USTAT equ 0E8Fh ;# ">
+"5117
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5117: __asm("UIR equ 0E90h");
+[; <" UIR equ 0E90h ;# ">
+"5173
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5173: __asm("UCFG equ 0E91h");
+[; <" UCFG equ 0E91h ;# ">
+"5227
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5227: __asm("UIE equ 0E92h");
+[; <" UIE equ 0E92h ;# ">
+"5283
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5283: __asm("UEIR equ 0E93h");
+[; <" UEIR equ 0E93h ;# ">
+"5334
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5334: __asm("UFRM equ 0E94h");
+[; <" UFRM equ 0E94h ;# ">
+"5341
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5341: __asm("UFRMH equ 0E94h");
+[; <" UFRMH equ 0E94h ;# ">
+"5373
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5373: __asm("UFRML equ 0E95h");
+[; <" UFRML equ 0E95h ;# ">
+"5435
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5435: __asm("UADDR equ 0E96h");
+[; <" UADDR equ 0E96h ;# ">
+"5491
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5491: __asm("UEIE equ 0E97h");
+[; <" UEIE equ 0E97h ;# ">
+"5542
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5542: __asm("UEP0 equ 0E98h");
+[; <" UEP0 equ 0E98h ;# ">
+"5586
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5586: __asm("UEP1 equ 0E99h");
+[; <" UEP1 equ 0E99h ;# ">
+"5630
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5630: __asm("UEP2 equ 0E9Ah");
+[; <" UEP2 equ 0E9Ah ;# ">
+"5674
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5674: __asm("UEP3 equ 0E9Bh");
+[; <" UEP3 equ 0E9Bh ;# ">
+"5718
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5718: __asm("UEP4 equ 0E9Ch");
+[; <" UEP4 equ 0E9Ch ;# ">
+"5762
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5762: __asm("UEP5 equ 0E9Dh");
+[; <" UEP5 equ 0E9Dh ;# ">
+"5806
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5806: __asm("UEP6 equ 0E9Eh");
+[; <" UEP6 equ 0E9Eh ;# ">
+"5850
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5850: __asm("UEP7 equ 0E9Fh");
+[; <" UEP7 equ 0E9Fh ;# ">
+"5894
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5894: __asm("STATUS_SHAD equ 0FE4h");
+[; <" STATUS_SHAD equ 0FE4h ;# ">
+"5926
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5926: __asm("WREG_SHAD equ 0FE5h");
+[; <" WREG_SHAD equ 0FE5h ;# ">
+"5946
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5946: __asm("BSR_SHAD equ 0FE6h");
+[; <" BSR_SHAD equ 0FE6h ;# ">
+"5966
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5966: __asm("PCLATH_SHAD equ 0FE7h");
+[; <" PCLATH_SHAD equ 0FE7h ;# ">
+"5986
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 5986: __asm("FSR0L_SHAD equ 0FE8h");
+[; <" FSR0L_SHAD equ 0FE8h ;# ">
+"6006
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 6006: __asm("FSR0H_SHAD equ 0FE9h");
+[; <" FSR0H_SHAD equ 0FE9h ;# ">
+"6026
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 6026: __asm("FSR1L_SHAD equ 0FEAh");
+[; <" FSR1L_SHAD equ 0FEAh ;# ">
+"6046
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 6046: __asm("FSR1H_SHAD equ 0FEBh");
+[; <" FSR1H_SHAD equ 0FEBh ;# ">
+"6066
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 6066: __asm("STKPTR equ 0FEDh");
+[; <" STKPTR equ 0FEDh ;# ">
+"6086
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 6086: __asm("TOSL equ 0FEEh");
+[; <" TOSL equ 0FEEh ;# ">
+"6106
+[; ;H:\Install Program\XC8\pic\include\pic16f1459.h: 6106: __asm("TOSH equ 0FEFh");
+[; <" TOSH equ 0FEFh ;# ">
+"8 nbproject/main.c
+[; ;nbproject/main.c: 8:       RC3=1; RC4=0;
+[p x FOSC = HS ]
+"9
+[; ;nbproject/main.c: 9:       RC5=0; RC6=1;
+[p x WDTE = OFF ]
+"10
+[; ;nbproject/main.c: 10:       _delay((unsigned long)((500)*(1000000/4000.0)));
+[p x PWRTE = ON ]
+"11
+[; ;nbproject/main.c: 11:      }
+[p x BOREN = ON ]
+"12
+[; ;nbproject/main.c: 12: 
+[p x LVP = OFF ]
+"14
+[; ;nbproject/main.c: 14: {
+[p x WRT = OFF ]
+"15
+[; ;nbproject/main.c: 15:       RC3=0; RC4=1;
+[p x CP = OFF ]
+"21
+[; ;nbproject/main.c: 21:       RC3=0; RC4=0;
+[v _time_taken `i ~T0 @X0 1 e ]
+"22
+[; ;nbproject/main.c: 22:       RC5=0; RC6=1;
+[v _distance `i ~T0 @X0 1 e ]
+"23
+[; ;nbproject/main.c: 23:       _delay((unsigned long)((500)*(1000000/4000.0)));
+[v _back_off `(v ~T0 @X0 1 ef ]
+"24
+[; ;nbproject/main.c: 24: }
+{
+[e :U _back_off ]
+[f ]
+"25
+[; ;nbproject/main.c: 25: void stop_robot()
+[e = _RC3 -> -> 1 `i `b ]
+[e = _RC4 -> -> 0 `i `b ]
+"26
+[; ;nbproject/main.c: 26: {
+[e = _RC5 -> -> 0 `i `b ]
+[e = _RC6 -> -> 1 `i `b ]
+"27
+[; ;nbproject/main.c: 27:       RC3=0; RC4=0;
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"28
+[; ;nbproject/main.c: 28:       RC5=0; RC6=0;
+[e :UE 327 ]
+}
+"30
+[; ;nbproject/main.c: 30: }
+[v _turn_left `(v ~T0 @X0 1 ef ]
+"31
+[; ;nbproject/main.c: 31: void robot_forward()
+{
+[e :U _turn_left ]
+[f ]
+"32
+[; ;nbproject/main.c: 32: {
+[e = _RC3 -> -> 0 `i `b ]
+[e = _RC4 -> -> 1 `i `b ]
+"33
+[; ;nbproject/main.c: 33:       RC3=0; RC4=1;
+[e = _RC5 -> -> 0 `i `b ]
+[e = _RC6 -> -> 0 `i `b ]
+"34
+[; ;nbproject/main.c: 34:       RC5=1; RC6=0;
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"35
+[; ;nbproject/main.c: 35:       _delay((unsigned long)((500)*(1000000/4000.0)));
+[e :UE 328 ]
+}
+"36
+[; ;nbproject/main.c: 36: }
+[v _turn_right `(v ~T0 @X0 1 ef ]
+"37
+[; ;nbproject/main.c: 37: void servoRotate0()
+{
+[e :U _turn_right ]
+[f ]
+"38
+[; ;nbproject/main.c: 38: {
+[e = _RC3 -> -> 0 `i `b ]
+[e = _RC4 -> -> 0 `i `b ]
+"39
+[; ;nbproject/main.c: 39:   unsigned int i;
+[e = _RC5 -> -> 0 `i `b ]
+[e = _RC6 -> -> 1 `i `b ]
+"40
+[; ;nbproject/main.c: 40:   for(i=0;i<50;i++)
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"41
+[; ;nbproject/main.c: 41:   {
+[e :UE 329 ]
+}
+"42
+[; ;nbproject/main.c: 42:     RC2 = 1;
+[v _stop_robot `(v ~T0 @X0 1 ef ]
+"43
+[; ;nbproject/main.c: 43:     _delay((unsigned long)((800)*(1000000/4000000.0)));
+{
+[e :U _stop_robot ]
+[f ]
+"44
+[; ;nbproject/main.c: 44:     RC2 = 0;
+[e = _RC3 -> -> 0 `i `b ]
+[e = _RC4 -> -> 0 `i `b ]
+"45
+[; ;nbproject/main.c: 45:     _delay((unsigned long)((19200)*(1000000/4000000.0)));
+[e = _RC5 -> -> 0 `i `b ]
+[e = _RC6 -> -> 0 `i `b ]
+"46
+[; ;nbproject/main.c: 46:   }
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"47
+[; ;nbproject/main.c: 47: }
+[e :UE 330 ]
+}
+"48
+[; ;nbproject/main.c: 48: 
+[v _robot_forward `(v ~T0 @X0 1 ef ]
+"49
+[; ;nbproject/main.c: 49: void servoRotate90()
+{
+[e :U _robot_forward ]
+[f ]
+"50
+[; ;nbproject/main.c: 50: {
+[e = _RC3 -> -> 0 `i `b ]
+[e = _RC4 -> -> 1 `i `b ]
+"51
+[; ;nbproject/main.c: 51:   unsigned int i;
+[e = _RC5 -> -> 1 `i `b ]
+[e = _RC6 -> -> 0 `i `b ]
+"52
+[; ;nbproject/main.c: 52:   for(i=0;i<50;i++)
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"53
+[; ;nbproject/main.c: 53:   {
+[e :UE 331 ]
+}
+"54
+[; ;nbproject/main.c: 54:     RC2 = 1;
+[v _servoRotate0 `(v ~T0 @X0 1 ef ]
+"55
+[; ;nbproject/main.c: 55:     _delay((unsigned long)((1500)*(1000000/4000000.0)));
+{
+[e :U _servoRotate0 ]
+[f ]
+"56
+[; ;nbproject/main.c: 56:     RC2 = 0;
+[v _i `ui ~T0 @X0 1 a ]
+"57
+[; ;nbproject/main.c: 57:     _delay((unsigned long)((18500)*(1000000/4000000.0)));
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 50 `i `ui 333  ]
+[e $U 334  ]
+[e :U 333 ]
+"58
+[; ;nbproject/main.c: 58:   }
+{
+"59
+[; ;nbproject/main.c: 59: }
+[e = _RC2 -> -> 1 `i `b ]
+"60
+[; ;nbproject/main.c: 60: 
+[e ( __delay (1 -> * -> -> 800 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"61
+[; ;nbproject/main.c: 61: void servoRotate180()
+[e = _RC2 -> -> 0 `i `b ]
+"62
+[; ;nbproject/main.c: 62: {
+[e ( __delay (1 -> * -> -> 19200 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"63
+[; ;nbproject/main.c: 63:   unsigned int i;
+}
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 50 `i `ui 333  ]
+[e :U 334 ]
+}
+"64
+[; ;nbproject/main.c: 64:   for(i=0;i<50;i++)
+[e :UE 332 ]
+}
+"66
+[; ;nbproject/main.c: 66:     RC2 = 1;
+[v _servoRotate90 `(v ~T0 @X0 1 ef ]
+"67
+[; ;nbproject/main.c: 67:     _delay((unsigned long)((2200)*(1000000/4000000.0)));
+{
+[e :U _servoRotate90 ]
+[f ]
+"68
+[; ;nbproject/main.c: 68:     RC2 = 0;
+[v _i `ui ~T0 @X0 1 a ]
+"69
+[; ;nbproject/main.c: 69:     _delay((unsigned long)((17800)*(1000000/4000000.0)));
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 50 `i `ui 337  ]
+[e $U 338  ]
+[e :U 337 ]
+"70
+[; ;nbproject/main.c: 70:  }
+{
+"71
+[; ;nbproject/main.c: 71: }
+[e = _RC2 -> -> 1 `i `b ]
+"72
+[; ;nbproject/main.c: 72: void calculate_distance()
+[e ( __delay (1 -> * -> -> 1500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"73
+[; ;nbproject/main.c: 73: 
+[e = _RC2 -> -> 0 `i `b ]
+"74
+[; ;nbproject/main.c: 74:      {
+[e ( __delay (1 -> * -> -> 18500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"75
+[; ;nbproject/main.c: 75:          distance=0;
+}
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 50 `i `ui 337  ]
+[e :U 338 ]
+}
+"76
+[; ;nbproject/main.c: 76:          TMR1H =0; TMR1L =0;
+[e :UE 336 ]
+}
+"78
+[; ;nbproject/main.c: 78:         _delay((unsigned long)((10)*(1000000/4000000.0)));
+[v _servoRotate180 `(v ~T0 @X0 1 ef ]
+"79
+[; ;nbproject/main.c: 79:         RC1 = 0;
+{
+[e :U _servoRotate180 ]
+[f ]
+"80
+[; ;nbproject/main.c: 80:         while (RC0==0){};
+[v _i `ui ~T0 @X0 1 a ]
+"81
+[; ;nbproject/main.c: 81:             TMR1ON = 1;
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 50 `i `ui 341  ]
+[e $U 342  ]
+[e :U 341 ]
+"82
+[; ;nbproject/main.c: 82:         while (RC0==1){};
+{
+"83
+[; ;nbproject/main.c: 83:             TMR1ON = 0;
+[e = _RC2 -> -> 1 `i `b ]
+"84
+[; ;nbproject/main.c: 84:         time_taken = (TMR1L | (TMR1H<<8));
+[e ( __delay (1 -> * -> -> 2200 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"85
+[; ;nbproject/main.c: 85:         distance= (0.0272*time_taken)/2;
+[e = _RC2 -> -> 0 `i `b ]
+"86
+[; ;nbproject/main.c: 86:      }
+[e ( __delay (1 -> * -> -> 17800 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"87
+[; ;nbproject/main.c: 87: 
+}
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 50 `i `ui 341  ]
+[e :U 342 ]
+}
+"88
+[; ;nbproject/main.c: 88: 
+[e :UE 340 ]
+}
+"89
+[; ;nbproject/main.c: 89: 
+[v _calculate_distance `(v ~T0 @X0 1 ef ]
+"91
+[; ;nbproject/main.c: 91: 
+{
+[e :U _calculate_distance ]
+[f ]
+"92
+[; ;nbproject/main.c: 92: {
+[e = _distance -> 0 `i ]
+"93
+[; ;nbproject/main.c: 93: 
+[e = _TMR1H -> -> 0 `i `uc ]
+[e = _TMR1L -> -> 0 `i `uc ]
+"94
+[; ;nbproject/main.c: 94:      TRISC=0x01;
+[e = _RC1 -> -> 1 `i `b ]
+"95
+[; ;nbproject/main.c: 95:      T1CON=0x20;
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"96
+[; ;nbproject/main.c: 96:      while(1)
+[e = _RC1 -> -> 0 `i `b ]
+"97
+[; ;nbproject/main.c: 97:      {
+[e $U 345  ]
+[e :U 346 ]
+{
+}
+[e :U 345 ]
+[e $ == -> _RC0 `i -> 0 `i 346  ]
+[e :U 347 ]
+"98
+[; ;nbproject/main.c: 98:          servoRotate0();
+[e = _TMR1ON -> -> 1 `i `b ]
+"99
+[; ;nbproject/main.c: 99:          servoRotate90();
+[e $U 348  ]
+[e :U 349 ]
+{
+}
+[e :U 348 ]
+[e $ == -> _RC0 `i -> 1 `i 349  ]
+[e :U 350 ]
+"100
+[; ;nbproject/main.c: 100:         calculate_distance();
+[e = _TMR1ON -> -> 0 `i `b ]
+"101
+[; ;nbproject/main.c: 101:         if (distance>5)
+[e = _time_taken | -> _TMR1L `i << -> _TMR1H `i -> 8 `i ]
+"102
+[; ;nbproject/main.c: 102:         {
+[e = _distance -> / * .0.0272 -> _time_taken `d -> -> 2 `i `d `i ]
+"103
+[; ;nbproject/main.c: 103:             robot_forward();
+[e :UE 344 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"107
+[; ;nbproject/main.c: 107:             stop_robot();
+[v _main `(v ~T0 @X0 1 ef ]
+"109
+[; ;nbproject/main.c: 109:             turn_left();
+{
+[e :U _main ]
+[f ]
+"111
+[; ;nbproject/main.c: 111:          }
+[e = _TRISC -> -> 1 `i `uc ]
+"112
+[; ;nbproject/main.c: 112:         servoRotate180();
+[e = _T1CON -> -> 32 `i `uc ]
+"113
+[; ;nbproject/main.c: 113:         calculate_distance();
+[e :U 353 ]
+"114
+[; ;nbproject/main.c: 114:         if (distance>5)
+{
+"115
+[; ;nbproject/main.c: 115:         {
+[e ( _servoRotate0 ..  ]
+"116
+[; ;nbproject/main.c: 116:             robot_forward();
+[e ( _servoRotate90 ..  ]
+"117
+[; ;nbproject/main.c: 117:         }
+[e ( _calculate_distance ..  ]
+"118
+[; ;nbproject/main.c: 118:         if (distance<5)
+[e $ ! > _distance -> 5 `i 355  ]
+"119
+[; ;nbproject/main.c: 119:         {
+{
+"120
+[; ;nbproject/main.c: 120:             stop_robot();
+[e ( _robot_forward ..  ]
+"121
+[; ;nbproject/main.c: 121:             back_off();
+}
+[e :U 355 ]
+"122
+[; ;nbproject/main.c: 122:             turn_right();
+[e $ ! < _distance -> 5 `i 356  ]
+"123
+[; ;nbproject/main.c: 123:             robot_forward();
+{
+"124
+[; ;nbproject/main.c: 124:          }
+[e ( _stop_robot ..  ]
+"125
+[; ;nbproject/main.c: 125:      }
+[e ( _back_off ..  ]
+"126
+[; ;nbproject/main.c: 126: }
+[e ( _turn_left ..  ]
+"127
+[e ( _robot_forward ..  ]
+"128
+}
+[e :U 356 ]
+"129
+[e ( _servoRotate180 ..  ]
+"130
+[e ( _calculate_distance ..  ]
+"131
+[e $ ! > _distance -> 5 `i 357  ]
+"132
+{
+"133
+[e ( _robot_forward ..  ]
+"134
+}
+[e :U 357 ]
+"135
+[e $ ! < _distance -> 5 `i 358  ]
+"136
+{
+"137
+[e ( _stop_robot ..  ]
+"138
+[e ( _back_off ..  ]
+"139
+[e ( _turn_right ..  ]
+"140
+[e ( _robot_forward ..  ]
+"141
+}
+[e :U 358 ]
+"142
+}
+[e :U 352 ]
+[e $U 353  ]
+[e :U 354 ]
+"143
+[e :UE 351 ]
+}
